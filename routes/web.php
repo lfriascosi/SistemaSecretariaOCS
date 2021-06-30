@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('probar');
+    return view('contenido/contenido');
 });
 
 //Auth::routes();
